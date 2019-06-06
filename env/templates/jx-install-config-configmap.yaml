@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDDDCCAfSgAwIBAgIRAPSy8b8UbfZbEg0oW0Jr+QEwDQYJKoZIhvcNAQELBQAw
+    LzEtMCsGA1UEAxMkZDExZDdiNTctMzI5OC00NTRmLTgxZTktODIzY2FmZTcxNTMw
+    MB4XDTE5MDYwNjE2MzYwOVoXDTI0MDYwNDE3MzYwOVowLzEtMCsGA1UEAxMkZDEx
+    ZDdiNTctMzI5OC00NTRmLTgxZTktODIzY2FmZTcxNTMwMIIBIjANBgkqhkiG9w0B
+    AQEFAAOCAQ8AMIIBCgKCAQEAtc6IUS5LAamNBJK24ICpECYt4kLLLY0NHhW0Mguq
+    WUgb0Az8Dny+rbxz6xKQf/AELKRhs2VISVYYJy1eGlKNwjtjpTt2yXS+FxrbRRKI
+    y+lIOUWJj3Aer0w4PY/Cf0UQehkCzrc8gf8aIaKKRWi6VkvrAnmYGWLHVhv/d7gf
+    xfcg5nhtVkphSEMn7kb+bxuo+CgHdl4Lj4Dld5WbDRdXdqH740SBNDD7vLZVa/12
+    wiw+bhCsV3tYah6Bs8WLDeZn1QRZK1wtezRDii2GQqCfQgiX5ZHFdYIr4jwX7eGq
+    qsU1mwD4wTWOf0U0jcnhshRwYyTlQDep68I529bpvZEIVQIDAQABoyMwITAOBgNV
+    HQ8BAf8EBAMCAgQwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEA
+    n8Vn2LAMCG3rU/xbgodGVzRoGrNmWjXwUG1AXOWXWUfiHhdy3h/KkJaIQ0NHTCVV
+    6Y5KfzH5l2surADif0yuZKtWWR3NEnX5yjDLcVi8wTuExs6ekSUAxG4aWS/dnhiA
+    u8g/feZqxagljPPY2CExdPE2oCKQt2TsTWbjy7Ku4snsusvcPAK7vCk+3mU2COkp
+    mdVuhLaccRFewngg37PCyadMe9hYfOJCdKWRHsOVDMx/z9B9OVXcmcLqTnA/pK6r
+    HiehfVSA3V0LZkNnVPjLc4vboweygmn8hLuTejWzjytM0t5pDeb0RBUoFzESrjOm
+    OSbxbjrTgJ27lbVACvAstw==
+    -----END CERTIFICATE-----
+  clusterName: mknurr
+  jx-install-version: 2.0.230
+  kubeProvider: gke
+  projectID: heroic-venture-242907
+  region: ""
+  secretsLocation: vault
+  server: https://34.65.149.1
+  systemVaultName: jx-vault-mknurr
+  zone: europe-west6-b
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
